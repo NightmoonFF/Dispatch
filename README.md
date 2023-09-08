@@ -6,9 +6,13 @@ test methods for excersises at school
 # How to use:
 * Add the files to your project (Like a utility package)
 * Make the class that contains the methods implement Dispatchable
-   ( ex: public class Assignments implements Dispatchable { } )
+
+     Example: public class Assignments implements Dispatchable
 
 * Create a new instance of the class in your main method, and call .dispatch() on it
-  ( ex: new Assignments().dispatch(); )
+
+     Example: new Assignments().dispatch();
+
+* You can also override it by simply adding the index of a method, so that it only outputs that one without any prompt
 
 Thats it!
