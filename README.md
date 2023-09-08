@@ -1,5 +1,5 @@
 # Dispatch (Java)
-Fetches methods in a class starting with "print", and prompts user about executing them
+Fetches methods in a class starting with "print", and prompts user about executing them. 
 I used the keyword print, since my intent was to quickly and easily print out
 test methods for excersises at school
 
