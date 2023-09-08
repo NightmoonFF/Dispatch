@@ -18,8 +18,8 @@ public interface Dispatchable extends Printable {
     /**
      * Fetches all methods in the class, where name starts
      * with "print", and executes the one with matching
-     * index of the parameter. The methods --SHOULD-- be fetched
-     * in the order, of the order that they appear in the class
+     * index of the parameter. The methods appear in order
+     * of lower to higher .compareTo() value
      * @param i - Index of the method to run
      */
     default void dispatch(int i){
